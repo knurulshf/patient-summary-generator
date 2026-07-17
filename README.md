@@ -58,7 +58,7 @@ Age: 22
 Doctor: Dr. A
 
 PHQ-9 Score: 18
-PHQ-9 Severity: Moderately Severe
+PHQ-9 Severity: Moderately Severe Depression
 Risk: Positive response on PHQ-9 Item 9. Clinical review recommended.
 
 GAD-7 Score: 14

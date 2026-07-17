@@ -50,17 +50,15 @@ def classify(score):
         str: The classification of PHQ-9 severity.
     """
     if 0 <= score <= 4:
-        return "Minimal or None"
+        return "Minimal or No Depression"
     elif 5 <= score <= 9:
-        return "Mild"
+        return "Mild Depression"
     elif 10 <= score <= 14:
-        return "Moderate"
+        return "Moderate Depression"
     elif 15 <= score <= 19:
-        return "Moderately Severe"
+        return "Moderately Severe Depression"
     elif 20 <= score <= 27:
-        return "Severe"
-    else:
-        return "Invalid PHQ-9 Score"
+        return "Severe Depression"
 
 
 def check_risk(scores):
