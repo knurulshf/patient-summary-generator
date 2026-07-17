@@ -62,7 +62,7 @@ PHQ-9 Severity: Moderately Severe
 Risk: Positive response on PHQ-9 Item 9. Clinical review recommended.
 
 GAD-7 Score: 14
-GAD-7 Severity: Moderate
+GAD-7 Severity: Moderate Anxiety
 ```
 
 ---
