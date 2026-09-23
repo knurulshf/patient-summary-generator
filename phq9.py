@@ -59,6 +59,8 @@ def classify(score):
         return "Moderately Severe Depression"
     elif 20 <= score <= 27:
         return "Severe Depression"
+    else:
+        return "Invalid score"
 
 
 def check_risk(scores):
