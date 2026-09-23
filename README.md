@@ -1,4 +1,4 @@
-# Mental Health Assessment & Triage MVP
+# Mental Health Assessment MVP
 
 A Streamlit-based mental health screening application integrating PHQ-9 and GAD-7 assessments with patient record management, follow-up recommendations, and basic clinical screening analytics.
 
