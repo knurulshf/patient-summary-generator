@@ -16,8 +16,8 @@ The application is intended to support screening workflows only. It does not pro
 
 ## Related Projects
 
-- [PHQ-9 Assessment Engine](https://github.com/knurulshf/phq9-assessment-engine)
-- [GAD-7 Assessment Engine](https://github.com/knurulshf/gad7-assessment-engine)
+* [PHQ-9 Assessment Engine](https://github.com/knurulshf/phq9-assessment-engine)
+* [GAD-7 Assessment Engine](https://github.com/knurulshf/gad7-assessment-engine)
 
 ---
 
@@ -45,15 +45,18 @@ The application is intended to support screening workflows only. It does not pro
 ```text
 patient-summary-generator/
 │
-├── app.py          # Main Streamlit application
-├── phq9.py         # PHQ-9 scoring, validation, and severity classification
-├── gad7.py         # GAD-7 scoring, validation, and severity classification
-├── followup.py     # Rule-based follow-up recommendation logic
-├── database.py     # SQLite database operations
-├── cli_demo.py     # Earlier command-line demonstration
-├── README.md       # Project documentation
+├── app.py              # Main Streamlit application
+├── phq9.py             # PHQ-9 scoring, validation, and severity classification
+├── gad7.py             # GAD-7 scoring, validation, and severity classification
+├── followup.py         # Rule-based follow-up recommendation logic
+├── database.py         # SQLite database operations
+├── cli_demo.py         # Earlier command-line demonstration
+├── assets/             # Application screenshots
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
 ├── LICENSE
 └── .gitignore
+```
 
 ---
 
@@ -73,6 +76,9 @@ The current MVP includes:
 8. SQLite assessment storage
 9. Assessment record management
 10. Dashboard metrics and severity distributions
+
+---
+
 ## Application Screenshots
 
 ### Screening Interface
@@ -99,9 +105,9 @@ The dashboard summarizes assessment records using aggregate metrics and PHQ-9 an
 
 ## Requirements
 
-- Python 3.10 or later
-- Streamlit
-- pandas
+* Python 3.10 or later
+* Streamlit
+* pandas
 
 The application also uses Python's built-in `sqlite3` module for local database storage.
 
@@ -165,9 +171,11 @@ Building this project helped me develop practical experience with:
 
 ## Disclaimer
 
-This project is intended for educational purposes only.
+This project is intended for educational and portfolio purposes only.
 
-It is **not** a diagnostic tool and should **not** replace clinical judgment or professional medical assessment.
+It is **not a diagnostic tool** and should **not replace clinical judgment, professional medical assessment, or appropriate clinical care**.
+
+PHQ-9 and GAD-7 results are presented as screening information, and follow-up recommendations in this prototype are generated using predefined rule-based logic.
 
 ---
 
