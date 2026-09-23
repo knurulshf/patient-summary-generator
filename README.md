@@ -2,6 +2,16 @@
 
 A Streamlit-based mental health screening application integrating PHQ-9 and GAD-7 assessments with patient record management, follow-up recommendations, and basic clinical screening analytics.
 
+## Live Demo
+
+The deployed application is available on Streamlit Community Cloud:
+
+**[Open Mental Health Assessment MVP](https://mental-health-assessment.streamlit.app)**
+
+> The deployed application is intended for demonstration and educational purposes only. Please do not enter real patient or sensitive health information.
+
+---
+
 ## Overview
 
 This project is an educational prototype designed to demonstrate how standardized mental health screening questionnaires can be integrated into a simple digital health workflow.
@@ -42,7 +52,7 @@ The application is intended to support screening workflows only. It does not pro
 
 ## Project Structure
 
-```text
+```text id="gh3p5j"
 patient-summary-generator/
 │
 ├── app.py              # Main Streamlit application
@@ -117,25 +127,25 @@ The application also uses Python's built-in `sqlite3` module for local database 
 
 Clone the repository:
 
-```bash
+```bash id="s2e48k"
 git clone https://github.com/knurulshf/patient-summary-generator.git
 ```
 
 Navigate to the project directory:
 
-```bash
+```bash id="zmg7d8"
 cd patient-summary-generator
 ```
 
 Install the required dependencies:
 
-```bash
+```bash id="8o3sc4"
 pip install -r requirements.txt
 ```
 
 Run the Streamlit application:
 
-```bash
+```bash id="xenpj4"
 streamlit run app.py
 ```
 
@@ -145,7 +155,7 @@ The application will open in your web browser.
 
 An earlier command-line version of the project is also included:
 
-```bash
+```bash id="69x9ac"
 python cli_demo.py
 ```
 
@@ -166,6 +176,7 @@ Building this project helped me develop practical experience with:
 * Building simple dashboard metrics and data visualizations
 * Testing and debugging an application across multiple modules
 * Using Git and GitHub for version control and project documentation
+* Deploying and testing a Streamlit application in a public cloud environment
 
 ---
 
@@ -188,7 +199,6 @@ Potential future development includes:
 * Improved privacy and security for health information
 * Migration from local SQLite storage to a production-ready database
 * Expanded clinical dashboard and longitudinal assessment tracking
-* Deployment of the application for demonstration purposes
 * AI-assisted summarization of patient-reported information
 * Additional validated mental health screening instruments
 * Further usability and accessibility improvements
